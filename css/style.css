@@ -37,3 +37,13 @@ figcaption {
 #logo {
   background-color: aqua;
 }
+
+/*Descendent selector*/
+
+#logo h1 {
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: "Elsie Swash Caps", cursive;
+}

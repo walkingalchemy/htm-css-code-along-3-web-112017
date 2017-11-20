@@ -1,0 +1,65 @@
+/* Review the css syntax:
+selector {
+  property: value;
+  property: value;
+}
+ */
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900');
+ /* Type Selector */
+
+ p { /* select all <p> */
+  font-size: 1em; /* 16px, ?pt, 100%, 1em */
+  line-height: 1.5em;
+ }
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia, "Times New Roman", serif;*/
+  font: normal 0.75em/1.5em 'Elsie Swash Caps', cursive;
+  color: rgb(0,	126,	176); /*color, hex, rgb, rgba, hsfa,*/
+  text-align: right;
+
+}
+
+/*Class selectors can be applied to as many elements as you like*/
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+
+/*ID selectors can only be applied to one unique element per page*/
+
+#logo {
+  background-color: aqua;
+}
+
+/*Descendent selector*/
+
+#logo h1 {
+  font-family: "Clicker Script", cursive;
+}
+
+#logo h2 {
+  font-family: "Elsie Swash Caps", cursive;
+}
+
+/*Pseudo class selectors*/
+
+#details a:link, #details a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color:red;
+}

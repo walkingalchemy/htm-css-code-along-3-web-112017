@@ -30,3 +30,10 @@ figcaption {
   color: white;
   text-shadow: 0 2px 3px #000;
 }
+
+
+/*ID selectors can only be applied to one unique element per page*/
+
+#logo {
+  background-color: aqua;
+}
